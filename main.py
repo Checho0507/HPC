@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st # type: ignore
 
 from backend.db import init_db
 from frontend.init_page import init

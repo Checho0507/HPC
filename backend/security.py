@@ -1,6 +1,6 @@
 import random
 import threading
-import streamlit as st
+import streamlit as st # type: ignore
 
 from app.messaging import consume_messages, publish_message
 from backend.db import add_user, validate_user

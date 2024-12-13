@@ -1,6 +1,6 @@
 import random
 import threading
-import streamlit as st
+import streamlit as st # type: ignore
 
 from backend.db import add_user, validate_user
 from backend.security import init_sessions, register_user, sign_in
